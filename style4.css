@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: initial;
+}
+body{ 
+   
+    background-image: url(image/z3.jpg);
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+.adventure{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+    padding: 0px 20px;
+}
+.adventure-container{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3
+    0px;
+}
+.adventure-inside img{
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .40s;
+    margin-top: 50px;
+}
+
+.adventure-inside img:hover{
+    transform: scale(0.9);
+
+}
+.heading1{
+    color:white;
+    line-height: 1.5;
+    font-family: Times New Roman;
+}
+.heading1 h4{
+    text-align: center;
+    font-size: 15px;
+}
+
+.heading1 h6{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.romance{
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    margin-top:570px;
+    padding: 0px 20px;
+}
+.romance-container{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3
+    0px;
+}
+.romance-inside img{
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    margin-top: 58px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .40s;
+
+
+}
+.romance-inside  img:hover{
+    transform: scale(0.9);
+}
+.heading1{
+    font-size: 6px;
+    text-align: center;
+}
+.heading1 h4{
+    text-align: center;
+    font-size: 15px;
+}
+
+.heading1 h6{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.horror{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 1050px;
+    padding: 0px 20px;
+}
+.horror-container{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3
+    0px;
+}
+.horror-inside img{
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    margin-top: 58px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .40s;
+}
+.horror-inside img:hover{
+    transform: scale(0.9);
+}
+.heading1{
+    font-size: 6px;
+    text-align: center;
+}
+.heading1 h4{
+    text-align: center;
+    font-size: 15px;
+}
+
+.heading1 h6{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+.action{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 1550px;
+    padding: 0px 20px;
+}
+.action-container{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3
+    0px;
+}
+.action-inside img{
+    width: 250px;
+    height: 200px;
+    margin-top: 58px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .40s;
+
+}
+.action-inside img:hover{
+    transform: scale(0.9);
+}
+.heading1{
+    font-size: 6px;
+    text-align: center;
+}
+.heading1 h4{
+    text-align: center;
+    font-size: 15px;
+}
+
+.heading1 h6{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+.banner{
+    width: 100%;
+    margin-top: 30px;
+    height: 100vh;
+  
+}
+.navbar{
+    width: 85%;
+    height: 80px;
+    margin-top:-40px;
+    padding: 40px 130px;
+    display: flex;
+    align-items: center;
+    background-color:burlywood;
+    opacity: .9;
+    background-attachment: fixed;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 10%;
+    margin: 5dvh;
+    margin-left: -16dvw;
+    padding: 25px 12%;
+    display: flex;
+    cursor: pointer;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(4, 2, 2);
+    text-transform: uppercase;
+
+
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.navbar h1{
+    width: 21%;
+    height: 20rcap;
+    margin-left: -25%;
+}

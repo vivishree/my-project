@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: initial;
+}
+body{ 
+   
+    background-image: url(image/z5.jpg);
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat ;
+
+
+}
+
+
+
+
+.movies{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    padding: 30px 20px;
+    
+    
+}
+.movies-container{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3
+    0px;
+}
+.movies-inside img{
+    width: 250px;
+    margin-top: 40px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .40s;
+}
+
+.movies-inside img:hover{
+    transform: scale(0.9);
+
+}
+.heading1{
+    color:white;
+    line-height: 1.5;
+    font-family: Times New Roman;
+}
+.heading1 h4{
+    text-align: center;
+    font-size: 15px;
+}
+
+.heading1 h6{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.series{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 550px;
+    padding: 0px 20px;
+}
+.series-container{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3
+    0px;
+}
+.series-inside img{
+    margin-top: 50px;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .40s;
+}
+
+.series-inside img:hover{
+    transform: scale(0.9);
+
+}
+.heading1{
+    color:white;
+    line-height: 1.5;
+    font-family: initial;
+}
+.heading1 h4{
+    text-align: center;
+    font-size: 15px;
+}
+
+.heading1 h6{
+    font-size: 15px;
+    text-align: center;
+}
+
+.banner{
+    width: 100%;
+    margin-top: 30px;
+    height: 100vh;
+  
+}
+.navbar{
+    width: 85%;
+    height: 80px;
+    margin-top:-40px;
+    padding: 40px 130px;
+    display: flex;
+    align-items: center;
+    background-color:burlywood;
+    opacity: .9;
+    background-attachment: fixed;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 10%;
+    margin: 5dvh;
+    margin-left: -16dvw;
+    padding: 25px 12%;
+    display: flex;
+    cursor: pointer;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(4, 2, 2);
+    text-transform: uppercase;
+
+
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.navbar h1{
+    width: 21%;
+    height: 20rcap;
+    margin-left: -25%;
+}
